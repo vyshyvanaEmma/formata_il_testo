@@ -10,15 +10,15 @@ const sottolineatoCheckbox = document.getElementById('sottolineato');
 button.disabled = true;
 
 // Costruttore
-Inizializza();
-InizializzaStile();
+inizializza();
+inizializzaStile();
 
 // Funzioni
-function InizializzaStile() {
+function inizializzaStile() {
     cambiaStile(); 
 }
 
-function Inizializza() {
+function inizializza() {
     titolo.style.color = colorSelect.value;
 }
 
